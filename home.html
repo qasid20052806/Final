@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>YourJob</a>
+            <nav class="navbar">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="jobs.html">ALL JOBS</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="login.html">ACCOUNT</a>
+            </nav>
+            <a href="" class="btn" style="margin-top: 0;">POST JOB</a>
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section class="home">
+            <form action="" method="post">
+                <h3>find your job</h3>
+                <p>Job Title</p>
+                <input type="text" name="title" placeholder="keyword,category or company" class="input" required
+                    maxlength="20">
+                <p>Job Location</p>
+                <input type="text" name="location" placeholder="locality,city or state" class="input" required
+                    maxlength="50">
+                <input type="submit" value="Search Job" name="search" class="btn">
+
+        </section>
+
+        <section class="category">
+            <div style="background-color:#f5f0f0; border-radius: 10px;">
+                <h1 class="heading">job categories</h1>
+            </div>
+            <div class="box-container">
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <h3>development</h3>
+                        <span>2200 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-pen"></i>
+                        <h3>desiger</h3>
+                        <span>500 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-chalkboard-user"></i>
+                        <h3>teacher</h3>
+                        <span>1500 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>marketing</h3>
+                        <span>1200 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-headset"></i>
+                        <h3>service</h3>
+                        <span>3100 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-wrench"></i>
+                        <h3>engineer</h3>
+                        <span>400 jobs</span>
+
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-hand-holding-dollar"></i>
+                        <h3>finance</h3>
+                        <span>1000 jobs</span>
+                    </div>
+                </a>
+                <a href="#">
+
+                    <div class="box">
+                        <i class="fas fa-person-digging"></i>
+                        <h3>labour</h3>
+                        <span>4000 jobs</span>
+                    </div>
+                </a>
+            </div>
+
+
+    </div>
+    </section>
+    <section class="jobs-container">
+        <h1 class="heading">Latest Jobs</h1>
+        <div class="box-container">
+            <!-- İş modeli 1 -->
+            <div class="box">
+                <div class="company">
+                    <img src="https://abbtech.az/storage/uploads/files/1687508692_1615533694-frontendd.svg" alt="">
+                    <div>
+                        <h3>IT Infosys Co</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Senior Web Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Baku, Azerbaijan</p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupes-sign"></i><span>10k-25k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Time</span></p>
+                    <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <!-- İş modeli 2 -->
+            <div class="box">
+                <div class="company">
+                    <img src="https://kvadrat.az/uploads/articles/66754a35bd4d0.jpg" alt="">
+                    <div>
+                        <h3>Global Tech Solutions</h3>
+                        <span>3 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">UI/UX Designer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Ganja, Azerbaijan</p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupes-sign"></i><span>8k-18k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Part Time</span></p>
+                    <p><i class="fas fa-clock"></i><span>Night Shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <!-- İş modeli 3 -->
+            <div class="box">
+                <div class="company">
+                    <img src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg" alt="">
+                    <div>
+                        <h3>CodeHub Corp</h3>
+                        <span>5 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Backend Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Sumqayit, Azerbaijan</p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupes-sign"></i><span>12k-20k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Time</span></p>
+                    <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <!-- İş modeli 4 -->
+            <div class="box">
+                <div class="company">
+                    <img src="https://gitmind.com/wp-content/uploads/2022/10/how-to-become-project-manager.jpg" alt="">
+                    <div>
+                        <h3>NextGen Technologies</h3>
+                        <span>1 week ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Project Manager</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Lankaran, Azerbaijan</p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupes-sign"></i><span>15k-30k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Contract</span></p>
+                    <p><i class="fas fa-clock"></i><span>Day Shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <!-- İş modeli 5 -->
+            <div class="box">
+                <div class="company">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQExT0O9xOCVhA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711974550479?e=2147483647&v=beta&t=5o7r9HMEnakAj9jtnkq5Gb3ju3bJtxNdzWTyzPI1AiU"
+                        alt="">
+                    <div>
+                        <h3>Startup Co</h3>
+                        <span>2 weeks ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Mobile App Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Nakhchivan, Azerbaijan</p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupes-sign"></i><span>9k-22k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full Time</span></p>
+                    <p><i class="fas fa-clock"></i><span>Night Shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 1rem;">
+            <a href="jobs.html" class="btn">View All</a>
+        </div>
+    </section>
+    <section class="about">
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/05/10/Job-Logo-Graphics-11872332-1.jpg"
+            alt="">
+        <div class="box">
+            <h3 style="font-size: large;text-transform: capitalize;">why choose us?</h3>
+            <br />
+            <p style="font-size: 1.6rem;">Welcome to YourJob, the ultimate platform for connecting top talent with
+                exceptional opportunities. Our mission is to bridge the gap between job seekers and employers by
+                offering a seamless and efficient job search experience.
+
+                Why Choose Us?<br />
+                1. Vast Job Opportunities
+                We partner with leading companies across various industries, ensuring a diverse range of job openings to
+                suit your skills and career aspirations.<br />
+
+                2. User-Friendly Platform
+                Our intuitive design makes it easy to search, apply, and track your job applications, whether you're a
+                first-time job seeker or an experienced professional.<br />
+
+                3. Personalized Recommendations
+                We use advanced algorithms to provide you with tailored job recommendations based on your preferences,
+                skills, and career goals.<br />
+
+                4. Verified Employers
+                We work only with trusted and verified employers, ensuring you have access to legitimate and
+                high-quality opportunities.<br />
+
+                5. Career Resources
+                From resume tips to interview preparation guides, we provide valuable resources to help you stand out in
+                today's competitive job market.<br />
+
+                6. Mobile Accessibility
+                Search for jobs anytime, anywhere with our mobile-friendly platform, so you never miss an
+                opportunity.<br />
+
+                Our Mission
+                At YourJob, we are committed to empowering job seekers by helping them unlock their full potential while
+                enabling employers to find the perfect fit for their teams.<br />
+
+                Join us today and take the next step in your career journey with confidence. Your dream job is just a
+                click away!</p>
+            <a href="contact.html" class="btn">contact us</a>
+        </div>
+    </section>
+    <div style="text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+    color:#2ec4b6;
+    text-transform: capitalize;
+    padding: 1rem 0;" class="section-tittle">top reviews</div>
+    <section class="reviews">
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">amazing results</h3>
+
+                <div class="user">
+                    <img style="height: 32vh; width: 100%;border-radius: 10px" src="https://media-sof1-2.cdn.whatsapp.net/v/t61.24694-24/466110941_924461609123757_5940358208082706238_n.jpg?ccb=11-4&oh=01_Q5AaICiShCAfR4A1qlIIPmGyuLJ3Lb-XsV3_TxUBNbzn2xpW&oe=677DFCC1&_nc_sid=5e03e0&_nc_cat=106" alt="">
+                    <div>
+                        <h3>Javid Abishov</h3>
+                        <span style="text-transform: capitalize">web designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="title">easy to user</h3>
+                <div class="user">
+                    <img style="height: 32vh; width: 100%;border-radius: 10px;" src="https://media-sof1-2.cdn.whatsapp.net/v/t61.24694-24/454528058_1949186412194259_3970823941276308530_n.jpg?ccb=11-4&oh=01_Q5AaIH5ODFHETs-fFHmMmTo43QRdFgXO_Qf1rW-wc2wn3JXa&oe=677DE0E1&_nc_sid=5e03e0&_nc_cat=100" alt="">
+                    <div>
+                        <h3>Kamran Pirishzade</h3>
+                        <span style="text-transform: capitalize">frontend developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3 class="title">time management</h3>
+
+                <div class="user">
+                    <img style=" height: 32vh; width: 100%;border-radius: 10px" src="https://media-sof1-2.cdn.whatsapp.net/v/t61.24694-24/437296106_363263930176313_3579162489341738830_n.jpg?ccb=11-4&oh=01_Q5AaIAmx_2qVXPrJi4iHe6XjW1WfPKwO0ZAU6bJEHOa0xdEb&oe=677DE216&_nc_sid=5e03e0&_nc_cat=108" alt="">
+                    <div>
+                        <h3>Gasid Nerimanov</h3>
+                        <span style="text-transform: capitalize">backend developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="job-filter">
+        <h1 class="heading">filter jobs</h1>
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>job title<span>*</span></p>
+                    <input type="text" name="title" placeholder="keyword,category or company" class="input" required
+                    maxlength="20">
+                </div>
+                <div class="box">
+                    <p>job title<span>*</span></p>
+                    <input type="text" name="title" placeholder="city,state or country" class="input" required
+                    maxlength="50">
+                </div>
+                
+            </div>
+    </section>
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i>all jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i>contact us</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i>register</a>
+                <a href="#"><i class="fas fa-angle-right"></i>post job</a>
+                <a href="#"><i class="fas fa-angle-right"></i>dashboard</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
